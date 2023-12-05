@@ -1,6 +1,7 @@
 .menu-lateral {
     display: grid;
-    grid-template-rows: auto auto auto 1fr;
+    row-gap: 2rem;
+    grid-template-rows: repeat(3, auto) 1fr;
 }
 
 .menu-lateral__logo {
