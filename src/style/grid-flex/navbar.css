@@ -1,0 +1,11 @@
+.navbar__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar__items button {
+    display: flex;
+    row-gap: .4rem;
+    align-items: center;
+    flex-direction: column;
+}
