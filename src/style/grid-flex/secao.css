@@ -27,3 +27,13 @@
     column-gap: 1.25rem;
     grid-auto-flow: column;
 }
+
+.secao-vertical .secao__cartoes .cartao a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-vertical .secao__cartoes .cartao__titulo {
+    flex-grow: 1;
+}
